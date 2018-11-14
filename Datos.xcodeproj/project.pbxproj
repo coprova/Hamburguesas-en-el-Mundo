@@ -14,6 +14,7 @@
 		E953D35F219A5CB300B005AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E953D35D219A5CB300B005AC /* LaunchScreen.storyboard */; };
 		E953D36A219A5CB400B005AC /* DatosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D369219A5CB400B005AC /* DatosTests.swift */; };
 		E953D375219A5CB400B005AC /* DatosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953D374219A5CB400B005AC /* DatosUITests.swift */; };
+		E9E674F3219B44C00042E9F6 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E674F2219B44C00042E9F6 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E953D370219A5CB400B005AC /* DatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E953D374219A5CB400B005AC /* DatosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosUITests.swift; sourceTree = "<group>"; };
 		E953D376219A5CB400B005AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E674F2219B44C00042E9F6 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E953D35B219A5CB300B005AC /* Assets.xcassets */,
 				E953D35D219A5CB300B005AC /* LaunchScreen.storyboard */,
 				E953D360219A5CB300B005AC /* Info.plist */,
+				E9E674F2219B44C00042E9F6 /* Datos.swift */,
 			);
 			path = Datos;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				E953D357219A5CAE00B005AC /* ViewController.swift in Sources */,
 				E953D355219A5CAE00B005AC /* AppDelegate.swift in Sources */,
+				E9E674F3219B44C00042E9F6 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PMWB2FQT44;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Datos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PMWB2FQT44;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Datos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
